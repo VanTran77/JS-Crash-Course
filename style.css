@@ -1,8 +1,7 @@
-
+/* 
 body {
-background-color:rgb(226, 212, 214);
+background-color:#f4f4f4;
 }
-/*
     color:#555555;
     background-color:#f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +12,10 @@ background-color:rgb(226, 212, 214);
     /* more space between in the lines */
     /* line-height: 1.6em; */
 /* } */ 
+
+#change-bg{
+    background-color: powderblue;
+}
 
 .container{
     width:80%;
