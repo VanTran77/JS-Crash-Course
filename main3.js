@@ -1,3 +1,15 @@
+
+function checkEven(num){
+    if(num % 2 == 0) {
+        console.log('This is Even number');
+    } else {
+        console.log('This is Odd number');
+    };
+}
+checkEven(101);
+
+
+
 function addNums(num1 = 2, num2 = 1){
     return num1 + num2;
 }
