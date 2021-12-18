@@ -8,13 +8,36 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Dom testing</title>
 </head>
-<body>
+<body>    
     <header id="main-header" class="bg-success text-white p-4 mb-3">
         <div class="container">
             <h1 id="header-title">Item Lister</h1>
         </div>
     </header>
     
+    <!-- Click button to hide a text -->
+    <input type="button" id="hider" value="Hide the text" />
+    <input type="button" id="shower" value="Show the text" />
+    <div id="text">Click above button to hide this text</div>
+    <br>
+    <br>
+    
+    <!-- Count Rabbits -->
+     <input type="button" value="Count rabbits!" onclick="countRabbits()"  >
+
+     <input id="testAA" type="button" value="Click me" >
+
+     <input type="button" onclick="alert('Click!')" value="Button">
+
+     <button onclick="alert(this.innerHTML)">Click me</button>
+     <!-- addEvenListener -->
+     <input id="elem" type="button" value="Submit">
+
+     <button id="elem3">Click me 3 </button>
+
+
+     <br>
+     <br>
     <div class="container">
         <div class="card card-body">
             <h2 class="title">Add Items</h2>
@@ -24,16 +47,15 @@
                 <input type="submit" class="btn btn-dark" value="Submit">
             </form>
            
-            <h2 class="title">Items</h2>
-            <ul id="items" class="list-group"></ul>
+            <h1 class="title">Items</h1>
+            <u id="items" class="list-group">
                 <li class="list-group-item">Item 1</li>
                 <li class="list-group-item">Item 2</li>
                 <li class="list-group-item">Item 3</li>
                 <li class="list-group-item">Item 4</li>
+            </ul>
         </div>
     </div>
-
-
 
 
     <script src="./dom2.js"></script>
